@@ -10,7 +10,7 @@ public class ElementTemplatesProvider implements DefaultLiveTemplatesProvider {
     @Override
     public String[] getDefaultLiveTemplateFiles() {
         /* 关联 element.xml */
-        return new String[]{"element", "vux"};
+        return new String[]{"element"};
     }
 
     @Nullable

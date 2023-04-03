@@ -8,12 +8,12 @@
     <idea-version since-build="173.0"/>
 
     <description><![CDATA[
-      support for element framework,
+      1111support for element framework,
       before use this plugin, you must install plugin <a href="https://github.com/JetBrains/intellij-plugins/tree/master/vuejs">vuejs</a>
     ]]></description>
 
     <change-notes><![CDATA[
-      1. optimize, <br/> 2. add tag special attribute and auto tip.
+      11. optimize, <br/> 21. add tag special attribute and auto tip.
     ]]>
     </change-notes>
 

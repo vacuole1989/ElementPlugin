@@ -1,3 +1,7 @@
+改项目修改自https://github.com/jiaolong1021/ElementPlugin，该插件已经不兼容idea2023以后的版本。由于作者已经不维护该项目。因此我禁用了部分不兼容代码达到了兼容的idea2023以及及之后的版本。
+
+如有侵权请告知 我会立即删除。
+
 # ElementPlugin
 idea plugin for develop with element ui. before use, you must install <a href="https://github.com/JetBrains/intellij-plugins/tree/master/vuejs">vuejs</a> plugin.
 ## basic functions

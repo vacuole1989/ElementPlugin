@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'element'
-version '2.0'
+version '2.1'
 
 apply plugin: 'java'
 apply plugin: 'idea'
@@ -26,7 +26,7 @@ intellij {
     pluginName 'element'
     downloadSources false
     updateSinceUntilBuild false
-    plugins = ['JavaScriptLanguage', 'org.jetbrains.plugins.vue:173.4301.12']
+    plugins = ['JavaScriptLanguage']
 }
 
 //指定编译的编码

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.shen.plugin.element</id>
     <name>element</name>
-    <version>2.0</version>
+    <version>2.1</version>
     <vendor url="https://github.com/jiaolong1021/ElementPlugin">element</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
@@ -13,7 +13,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      1. optimize, <br/> 2. add tag special attribute and auto tip.
+      1. optimize, <br/> 2. add tag special attribute and auto tip,
+      <br/> 3. compatible for 2023.1 or later.
     ]]>
     </change-notes>
 

@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.shen.plugin.element2023</id>
-    <name>element2023</name>
+    <name>element</name>
     <version>2.1</version>
     <vendor url="https://github.com/vacuole1989/ElementPlugin">element</vendor>
 

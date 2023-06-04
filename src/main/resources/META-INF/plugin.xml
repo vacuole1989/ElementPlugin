@@ -1,8 +1,8 @@
 <idea-plugin>
-    <id>com.shen.plugin.element</id>
-    <name>element</name>
+    <id>com.shen.plugin.element2023</id>
+    <name>element2023</name>
     <version>2.1</version>
-    <vendor url="https://github.com/jiaolong1021/ElementPlugin">element</vendor>
+    <vendor url="https://github.com/vacuole1989/ElementPlugin">element</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="173.0"/>
@@ -14,7 +14,7 @@
 
     <change-notes><![CDATA[
       1. optimize, <br/> 2. add tag special attribute and auto tip,
-      <br/> 3. compatible for 2023.1 or later.
+      <br/> 3. compatible for idea 2023.1 or later.
     ]]>
     </change-notes>
 

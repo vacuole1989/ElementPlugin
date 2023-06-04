@@ -1,0 +1,27 @@
+<idea-plugin>
+  <id>com.shen.plugin.element2023</id>
+  <name>element</name>
+  <version>2.1</version>
+  <vendor url="https://github.com/vacuole1989/ElementPlugin">element</vendor>
+  <idea-version since-build="173.0"/>
+  <description>
+      support for element framework,
+      before use this plugin, you must install plugin &lt;a href="https://github.com/JetBrains/intellij-plugins/tree/master/vuejs"&gt;vuejs&lt;/a&gt;
+    </description>
+  <change-notes>
+      1. optimize, &lt;br/&gt; 2. add tag special attribute and auto tip,
+      &lt;br/&gt; 3. compatible for idea 2023.1 or later.
+    
+    </change-notes>
+  <depends>JavaScript</depends>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTypeFactory implementation="com.element.ElementFileTypeFactory"/>
+    <defaultLiveTemplatesProvider implementation="com.element.ElementTemplatesProvider"/>
+    <lang.documentationProvider language="HTML" implementationClass="com.element.document.DocumentProvider" order="first"/>
+    <xml.tagNameProvider implementation="com.element.xml.ElementTagNameProvider"/>
+    <xml.elementDescriptorProvider implementation="com.element.xml.ElementTagNameProvider" order="first"/>
+    <xml.attributeDescriptorsProvider implementation="com.element.xml.ElementAttributesProvider"/>
+  </extensions>
+  <actions/>
+</idea-plugin>

@@ -8,9 +8,9 @@
     <idea-version since-build="173.0"/>
 
     <description><![CDATA[
-      support for element framework,
-      before use this plugin, you must install plugin <a href="https://github.com/JetBrains/intellij-plugins/tree/master/vuejs">vuejs</a>
-    ]]></description>
+       该插件为ElementUI提示插件，可以提示elementUI的一些标签和属性值。
+       该插件修改自<a href="https://plugins.jetbrains.com/plugin/10524-element">element</a>
+       由于之前的插件已经不再更新，但是其不兼容新的idea2023版本，为了能够正常的使用，因此对插件做了一些部分不兼容代码的屏蔽，使它在idea2023版本运行不报错。]]></description>
 
     <change-notes><![CDATA[
       1. optimize, <br/> 2. add tag special attribute and auto tip,

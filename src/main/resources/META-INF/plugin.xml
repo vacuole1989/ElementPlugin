@@ -1,16 +1,17 @@
 <idea-plugin>
     <id>com.shen.plugin.element2023</id>
     <name>element</name>
-    <version>2.1</version>
+    <version>2.2</version>
     <vendor url="https://github.com/vacuole1989/ElementPlugin">element</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="173.0"/>
 
     <description><![CDATA[
-       该插件为ElementUI提示插件，可以提示elementUI的一些标签和属性值。
-       该插件修改自<a href="https://plugins.jetbrains.com/plugin/10524-element">element</a>
-       由于之前的插件已经不再更新，但是其不兼容新的idea2023版本，为了能够正常的使用，因此对插件做了一些部分不兼容代码的屏蔽，使它在idea2023版本运行不报错。]]></description>
+       This plug-in is an ElementUI prompt plug-in, which can prompt some labels and attribute values of elementUI.
+        This plugin is modified from <a href="https://plugins.jetbrains.com/plugin/10524-element">element</a>
+        Since the previous plug-in is no longer updated, but it is not compatible with the new idea2023 version, in order to be able to use it normally, some incompatible codes are shielded for the plug-in, so that it will not report an error when it runs in the idea2023 version.
+]]></description>
 
     <change-notes><![CDATA[
       1. optimize, <br/> 2. add tag special attribute and auto tip,

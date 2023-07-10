@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'element'
-version '2.1'
+version '2.2'
 
 apply plugin: 'java'
 apply plugin: 'idea'

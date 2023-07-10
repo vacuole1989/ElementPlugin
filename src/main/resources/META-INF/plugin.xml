@@ -1,20 +1,21 @@
 <idea-plugin>
-    <id>com.shen.plugin.element</id>
+    <id>com.shen.plugin.element2023</id>
     <name>element</name>
-    <version>2.0</version>
-    <vendor url="https://github.com/jiaolong1021/ElementPlugin">element</vendor>
+    <version>2.2</version>
+    <vendor url="https://github.com/vacuole1989/ElementPlugin">element</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="173.0"/>
 
     <description><![CDATA[
-      support for element framework,
-      before use this plugin, you must install plugin <a href="https://github.com/JetBrains/intellij-plugins/tree/master/vuejs">vuejs</a>
-    ]]></description>
+       This plug-in is an ElementUI prompt plug-in, which can prompt some labels and attribute values of elementUI.
+        This plugin is modified from <a href="https://plugins.jetbrains.com/plugin/10524-element">element</a>
+        Since the previous plug-in is no longer updated, but it is not compatible with the new idea2023 version, in order to be able to use it normally, some incompatible codes are shielded for the plug-in, so that it will not report an error when it runs in the idea2023 version.
+]]></description>
 
     <change-notes><![CDATA[
       1. optimize, <br/> 2. add tag special attribute and auto tip,
-      <br/> 3. compatible for 2023.1.
+      <br/> 3. compatible for idea 2023.1 or later.
     ]]>
     </change-notes>
 

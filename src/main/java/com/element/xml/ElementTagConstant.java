@@ -25,6 +25,7 @@ public class ElementTagConstant {
         elColMap.put("pull", new String[]{"6"});
         elColMap.put("xs", new String[]{"8"});
         elColMap.put("sm", new String[]{"8"});
+        elColMap.put("md", new String[]{"8"});
         elColMap.put("lg", new String[]{"8"});
         elColMap.put("xl", new String[]{"8"});
         elColMap.put("tag", new String[]{"div"});
@@ -43,7 +44,7 @@ public class ElementTagConstant {
         TAG_CONSTANT.put("el-aside", elAsideMap);
 
         HashMap<String, String[]> elFooterMap = new HashMap<>();
-        elFooterMap.put("width", new String[]{"60px"});
+        elFooterMap.put("height", new String[]{"60px"});
         TAG_CONSTANT.put("el-footer", elFooterMap);
 
         HashMap<String, String[]> elButtonMap = new HashMap<>();
@@ -62,6 +63,14 @@ public class ElementTagConstant {
         HashMap<String, String[]> elButtonGroupMap = new HashMap<>();
         elButtonGroupMap.put("align", new String[]{});
         TAG_CONSTANT.put("el-button-group", elButtonGroupMap);
+
+        HashMap<String, String[]> elLink = new HashMap<>();
+        elLink.put("type", new String[]{"primary", "success", "warning", "danger", "info", "default"});
+        elLink.put("underline", new String[]{"true", "false"});
+        elLink.put("disabled", new String[]{"false", "true"});
+        elLink.put("href", new String[]{});
+        elLink.put("icon", new String[]{});
+        TAG_CONSTANT.put("el-link", elLink);
 
         HashMap<String, String[]> elRadioMap = new HashMap<>();
         elRadioMap.put("label", new String[]{"div"});
